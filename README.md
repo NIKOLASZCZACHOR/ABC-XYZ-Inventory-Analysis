@@ -14,6 +14,35 @@ The workbook supports inventory analysis by:
 
 > **Note:** This project was originally developed as part of an academic Excel and VBA assignment and was later refined for portfolio presentation.
 
+## Business Purpose
+
+ABC/XYZ analysis supports inventory management by combining two perspectives: the **value of inventory consumption** and the **variability of demand**.
+
+The analysis helps answer questions such as:
+
+- Which inventory items account for the largest share of total consumption value?
+- Which items show relatively stable or highly variable consumption?
+- Which products may require closer inventory monitoring?
+- How do consumption patterns differ between inventory categories?
+
+### How to Interpret the Classification
+
+In the **ABC analysis**, products are classified according to their contribution to total consumption value:
+
+- **Class A** – items with the highest contribution to total consumption value,
+- **Class B** – items with a moderate contribution,
+- **Class C** – items with the lowest contribution.
+
+In the **XYZ analysis**, products are classified according to the variability of their consumption:
+
+- **Class X** – relatively stable consumption,
+- **Class Y** – moderate variability,
+- **Class Z** – higher variability.
+
+Combining both approaches provides a broader view of inventory by considering not only its value, but also the stability of consumption patterns.
+
+> **Data note:** The workbook uses randomly generated demonstration data. As a result, classifications and numerical results may change each time the analysis is run. The project therefore focuses on demonstrating the analytical workflow and VBA automation rather than presenting conclusions for a fixed real-world dataset.
+
 ## Application Interface
 
 The workbook includes a simple menu that provides access to the main stages of the ABC and XYZ analyses.
